@@ -21,6 +21,7 @@ public class MenuGestionStock  extends JFrame{
     */
     public MenuGestionStock(MenuInicial menuInicial) {
         this.menuInicial = menuInicial;
+        stock = new Stock();
     }
 
 
